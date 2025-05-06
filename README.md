@@ -33,7 +33,7 @@ Install Python packages (see above).
 
 ---
 
-▶️ Usage
+## ▶️ Usage
 Run the application:
 
 python3 word2vec_demo.py
@@ -45,7 +45,7 @@ View the nearest neighbours in the text panel and see their 2D PCA plot on the r
 
 ---
 
-⚙️ Configuration
+## ⚙️ Configuration
 At the top of word2vec_demo.py you can adjust:
 
 python
@@ -64,7 +64,7 @@ TOP_N     = 20      # Neighbours to display
 
 ---
 
-📁 File Structure
+## 📁 File Structure
 
 ├── word2vec_demo.py      # Main application
 
@@ -74,7 +74,7 @@ TOP_N     = 20      # Neighbours to display
 
 ---
 
-📚 References
+## 📚 References
 Word2Vec
 [1] Mikolov, T., Chen, K., Corrado, G., Dean, J. 2013, 'Efficient Estimation of Word Representations in Vector Space', arXiv preprint arXiv:1301.3781.
 Word2vec Explanation
