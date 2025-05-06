@@ -46,6 +46,7 @@ View the nearest neighbours in the text panel and see their 2D PCA plot on the r
 At the top of word2vec_demo.py you can adjust:
 
 python
+
 SENTENCES = 10000    # Number of sentences from text8
 DIM       = 100     # Embedding dimensionality
 EPOCHS    = 3       # Training epochs
