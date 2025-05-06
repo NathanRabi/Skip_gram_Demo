@@ -48,15 +48,23 @@ At the top of word2vec_demo.py you can adjust:
 python
 
 SENTENCES = 10000    # Number of sentences from text8
+
 DIM       = 100     # Embedding dimensionality
+
 EPOCHS    = 3       # Training epochs
+
 MIN_COUNT = 5       # Minimum word frequency
+
 WINDOW    = 5       # Context window size
+
 TOP_N     = 20      # Neighbours to display
 
 📁 File Structure
+
 ├── word2vec_demo.py      # Main application
+
 ├── requirements.txt      # pinned dependencies
+
 └── README.md             # This file
 
 
