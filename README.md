@@ -31,9 +31,10 @@ git clone https://github.com/<your-username>/word2vec-skipgram-demo.git
 cd word2vec-skipgram-demo
 Install Python packages (see above).
 
+---
+
 ▶️ Usage
 Run the application:
-
 
 python3 word2vec_demo.py
 Wait for the background training to finish.
@@ -41,6 +42,8 @@ Wait for the background training to finish.
 Once the entry box is enabled, type a word (or a vector expression like king - man + woman) and press Enter.
 
 View the nearest neighbours in the text panel and see their 2D PCA plot on the right.
+
+---
 
 ⚙️ Configuration
 At the top of word2vec_demo.py you can adjust:
@@ -59,6 +62,8 @@ WINDOW    = 5       # Context window size
 
 TOP_N     = 20      # Neighbours to display
 
+---
+
 📁 File Structure
 
 ├── word2vec_demo.py      # Main application
@@ -67,6 +72,7 @@ TOP_N     = 20      # Neighbours to display
 
 └── README.md             # This file
 
+---
 
 📚 References
 Word2Vec
