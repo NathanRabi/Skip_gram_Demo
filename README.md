@@ -21,16 +21,19 @@ An interactive GUI application that trains and explores a Skip-Gram Word2Vec mod
 ##  Prerequisites
 
 - Python 3.7+  
-- Install dependencies:
+https://www.python.org/downloads/release/python-3133/
 
+- Install dependencies:
 pip install gensim scikit-learn matplotlib numpy tqdm
 
 ##  Installation
 
-Press Win+r, type CMD and press Enter.
+
 Clone this repository:
- - git clone https://github.com/NathanRabi/word2vec-skipgram-demo.git
-- cd word2vec-skipgram-demo
+ -Press Win+r, type CMD and press Enter.
+  git clone https://github.com/NathanRabi/word2vec-skipgram-demo.git
+ - or install the file from the github
+- cd word2vec-skipgram-demo (python script path)
 Install Python packages: 
 - pip install gensim scikit-learn matplotlib numpy tqdm
 
