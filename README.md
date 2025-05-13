@@ -101,7 +101,6 @@ Nearest Neighbours Output
 ![image](https://github.com/user-attachments/assets/e3e3c257-47d2-4788-a798-1bc59c7d3da3)
 
 
-## References
 
 ## References
 
