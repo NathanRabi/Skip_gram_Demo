@@ -97,6 +97,7 @@ Nearest Neighbours Output
 ![image](https://github.com/user-attachments/assets/c454566e-ff93-47af-b8e8-db4c46b9b135)
 
 2D PCA Plot Visualization
+
 ![image](https://github.com/user-attachments/assets/e3e3c257-47d2-4788-a798-1bc59c7d3da3)
 
 
