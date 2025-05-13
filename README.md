@@ -7,7 +7,7 @@ An interactive GUI application that trains and explores a Skip-Gram Word2Vec mod
 
 ---
 
-## 🚀 Features
+##  Features
 
 - **Skip-Gram** with Negative Sampling (efficient training)
 - **Nearest-neighbour** lookup for any word or vector arithmetic expression
@@ -18,34 +18,35 @@ An interactive GUI application that trains and explores a Skip-Gram Word2Vec mod
 
 ---
 
-## 📦 Prerequisites
+##  Prerequisites
 
 - Python 3.7+  
 - Install dependencies:
 
 pip install gensim scikit-learn matplotlib numpy tqdm
-🔧 Installation
-Clone this repository
 
-git clone https://github.com/<your-username>/word2vec-skipgram-demo.git
-cd word2vec-skipgram-demo
-Install Python packages (see above).
+##  Installation
 
----
+Press Win+r, type CMD and press Enter.
+Clone this repository:
+ - git clone https://github.com/NathanRabi/word2vec-skipgram-demo.git
+- cd word2vec-skipgram-demo
+Install Python packages: 
+- pip install gensim scikit-learn matplotlib numpy tqdm
 
-## ▶️ Usage
+##  Usage
 Run the application:
 
-python3 word2vec_demo.py
-Wait for the background training to finish.
+- python word2vec_demo.py
 
+Wait for the background training to finish.
 Once the entry box is enabled, type a word (or a vector expression like king - man + woman) and press Enter.
 
 View the nearest neighbours in the text panel and see their 2D PCA plot on the right.
 
 ---
 
-## ⚙️ Configuration
+##  Configuration
 At the top of word2vec_demo.py you can adjust:
 
 python
@@ -64,7 +65,7 @@ TOP_N     = 20      # Neighbours to display
 
 ---
 
-## 📁 File Structure
+## File Structure
 
 ├── word2vec_demo.py      # Main application
 
@@ -74,11 +75,41 @@ TOP_N     = 20      # Neighbours to display
 
 ---
 
-## 📚 References
-Word2Vec
+## Screenshots
+
+Training Output
+
+![image](https://github.com/user-attachments/assets/fd82d8bf-5db3-4582-baa6-67c1b56ecc5c)
+
+Model Evaluation 
+
+![image](https://github.com/user-attachments/assets/03cded5c-b774-41d7-baf4-f5c2332a3456)
+
+Active GUI (After Training Completes)
+
+![image](https://github.com/user-attachments/assets/b2afca04-bd45-437b-be61-0088556a87de)
+
+Nearest Neighbours Output
+
+![image](https://github.com/user-attachments/assets/c454566e-ff93-47af-b8e8-db4c46b9b135)
+
+2D PCA Plot Visualization
+![image](https://github.com/user-attachments/assets/e3e3c257-47d2-4788-a798-1bc59c7d3da3)
+
+
+## References
+
+_Word2Vec_
+
 [1] Mikolov, T., Chen, K., Corrado, G., Dean, J. 2013, 'Efficient Estimation of Word Representations in Vector Space', arXiv preprint arXiv:1301.3781.
-Word2vec Explanation
-[2] Goldberg, Y., Levy, O. 2014, 'word2vec Explained: deriving Mikolov et al.'s negative-sampling
+
+[2] Mikolov,Mikolov, T., Sutskever, I., Chen, K., Corrado, G., Dean, J. 2013, 'Distributed Representations of Words and Phrases and their Compositionality', arXiv preprint arXiv:1310.4546
+
+_Word2vec Explanation_
+
+[3] Goldberg, Y., Levy, O. 2014, 'word2vec Explained: deriving Mikolov et al.'s negative-sampling
   word-embedding method', arXiv preprint arXiv:1402.3722.
-Linguistic Theory
-[3] Firth, J.R. (1957) A Synopsis of Linguistic Theory, 1930-1955. In: Firth, J.R., Ed., Studies in Linguistic Analysis, Blackwell, Oxford, 1-32
+  
+_Linguistic Theory_
+
+[4] Firth, J.R. (1957) A Synopsis of Linguistic Theory, 1930-1955. In: Firth, J.R., Ed., Studies in Linguistic Analysis, Blackwell, Oxford, 1-32
