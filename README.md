@@ -103,17 +103,14 @@ Nearest Neighbours Output
 
 ## References
 
-_Word2Vec_
+## References
 
-[1] Mikolov, T., Chen, K., Corrado, G., Dean, J. 2013, 'Efficient Estimation of Word Representations in Vector Space', arXiv preprint arXiv:1301.3781.
+### Word2Vec  
+1. Mikolov, T., Chen, K., Corrado, G., & Dean, J. (2013). [Efficient Estimation of Word Representations in Vector Space](https://arxiv.org/abs/1301.3781). *arXiv preprint arXiv:1301.3781*.  
+2. Mikolov, T., Sutskever, I., Chen, K., Corrado, G., & Dean, J. (2013). [Distributed Representations of Words and Phrases and their Compositionality](https://arxiv.org/abs/1310.4546). *arXiv preprint arXiv:1310.4546*.
 
-[2] Mikolov,Mikolov, T., Sutskever, I., Chen, K., Corrado, G., Dean, J. 2013, 'Distributed Representations of Words and Phrases and their Compositionality', arXiv preprint arXiv:1310.4546
+### Word2Vec Explanation  
+3. Goldberg, Y., & Levy, O. (2014). [word2vec Explained: deriving Mikolov et al.’s negative-sampling word-embedding method](https://arxiv.org/abs/1402.3722). *arXiv preprint arXiv:1402.3722*.
 
-_Word2vec Explanation_
-
-[3] Goldberg, Y., Levy, O. 2014, 'word2vec Explained: deriving Mikolov et al.'s negative-sampling
-  word-embedding method', arXiv preprint arXiv:1402.3722.
-  
-_Linguistic Theory_
-
-[4] Firth, J.R. (1957) A Synopsis of Linguistic Theory, 1930-1955. In: Firth, J.R., Ed., Studies in Linguistic Analysis, Blackwell, Oxford, 1-32
+### Linguistic Theory  
+4. Firth, J. R. (1957). *A Synopsis of Linguistic Theory, 1930–1955*. In J. R. Firth (Ed.), *Studies in Linguistic Analysis* (pp. 1–32). Blackwell, Oxford.
